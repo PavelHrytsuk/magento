@@ -1,0 +1,15 @@
+bin/magento setup:install \
+--base-url=http://education.loc \
+--db-host=localhost \
+--db-name=education \
+--db-user=root \
+--db-password=Razor_007 \
+--admin-firstname=Pavel \
+--admin-lastname=Hrytsuk \
+--admin-email=pavlik.morozov701@gmail.com \
+--admin-user=Razor_007 \
+--admin-password=Razor_007ADmin \
+--language=en_US \
+--currency=USD \
+--timezone=America/Chicago \
+--use-rewrites=1
