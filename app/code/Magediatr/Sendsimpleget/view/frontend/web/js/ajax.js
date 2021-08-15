@@ -43,7 +43,6 @@ define([
 				let categoriesList = sortSubCategory(mainCategoryList, data);
 				$('.insert-pointer').css('display', 'block');
 				$.each(categoriesList, function(categoryName, categoryInfo){
-					//let categorylist = outputSubCategory()
 					$('.insert-pointer').append("<tr class='inserted-data'><td>"+ categoryName +"</td><td>"+ outputSubCategory(categoryInfo['sub_category'])  +"</td</tr")
 				})
 			}
