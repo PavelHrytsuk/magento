@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magent">
+    <body>
+        <referenceBlock name="product.info.details">
+            <block class="Magento\Catalog\Block\Product\View" name="first_added_tab" template="Magediatr_CreateAnotherTab::first_added_tab.phtml" group="detailed_info">
+                <arguments>
+                    <argument name="title" translate="true" xsi:type="string">First added tab</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+        <referenceBlock name="product.info.details">
+            <block class="Magento\Catalog\Block\Product\View" name="second_added_tab" template="Magediatr_CreateAnotherTab::second_added_tab.phtml" group="detailed_info">
+                <arguments>
+                    <argument name="title" translate="true" xsi:type="string">Second added tab</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>
